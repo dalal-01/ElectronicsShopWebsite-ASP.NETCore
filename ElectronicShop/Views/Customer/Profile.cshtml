@@ -1,0 +1,43 @@
+﻿@model Customer
+@{
+}
+<section class="section about-section gray-bg" id="about">
+    <div class="container mt-5">
+        <div class="row align-items-center d-flex justify-content-center">
+            <div class="col-lg-6">
+                <div class="about-avatar">
+                    <img src="https://bootdey.com/img/Content/avatar/avatar7.png" title="" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about-text go-to">
+                    <h3 class="dark-color">@Model.Name</h3>
+                    <p>
+                        Hey..<br />
+                        this is your personal profile.<br/>
+                        Welcome to our online store<br />
+                        Through your membership we will provide you with many benefits<br />
+                    </p>
+                    <div class="row about-list">
+                        <div class="col-md-6">
+                            <div class="media">
+                                <label>Email</label>
+                                <p>@Model.Email</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="media">
+                                <label>Phone</label>
+                                <p>@Model.Phone</p>
+                            </div>
+                        </div>
+                        <div>
+                        <a asp-action="ChangePassword" type="button" class="btn btn-primary">Change Password</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>

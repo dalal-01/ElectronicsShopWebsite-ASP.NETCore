@@ -1,0 +1,39 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "Products Page";
+}
+<form method="get" asp-controller="Product" asp-action="Search">
+
+    <input type="search" name="Key"  />
+    <button type="submit">search</button>
+</form>
+<br/>
+<div class="row">
+@foreach(var product in Model)
+{   
+    <div class="card col-4 m-3" style="width: 18rem;">
+            <img src="~/images/@(product.Image).jpg" class="card-img-top" width="500px" height="250px" alt="...">
+        <div class="card-body">
+            <p class="card-text">@product.Name</p>
+            <p class="card-text">@product.Price</p>
+
+                @if (Context.Session.GetString("userEmail") != null && Context.Session.GetString("userEmail") == "admin@g.com")
+                {
+                    <button type="button" class="btn btn-danger">
+                        <a asp-action="DeleteProduct" asp-controller="Product" asp-route-id="@product.ProductID">Delete Product</a>
+                    </button>
+                }
+                else
+                {
+                    <button type="button" class="btn btn-primary">
+                        <a asp-action="Details" asp-controller="Product" asp-route-id="@product.ProductID">Details</a>
+                    </button>
+                    <button type="button" class="btn btn-secondary">
+                        <a asp-action="AddOrder" asp-controller="Order" asp-route-id="@product.ProductID">Order</a>
+                    </button>
+                }
+        </div>
+    </div>
+   
+}
+</div>

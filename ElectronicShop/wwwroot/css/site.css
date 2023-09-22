@@ -1,0 +1,53 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    color:white;
+    background-color: rgba(30,22,30,255)!important;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.home {
+    height: 90vh;
+    background-image: url('../images/back2.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: fixed;
+    left: 0;
+}
+.titles {
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.card {
+    background-color: #2e222a;
+}
+
+.titles h1
+{
+    font-size:80px;
+}

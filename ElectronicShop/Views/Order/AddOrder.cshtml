@@ -1,0 +1,17 @@
+﻿@model Order
+@{
+}
+
+<form asp-action="AddOrder" method="post">
+    <div class="mb-3">
+        <input type="hidden" class="form-control" asp-for="@Model.ProductID" value="@ViewBag.Pid">
+        <input type="hidden" class="form-control" asp-for= "@Model.CustomerID" value="@ViewBag.Cid" />
+    </div>
+
+    <div class="mb-3">
+        <label  class="form-label" >Quantity</label>
+        <input type="number" asp-for="@Model.Quantity" class="form-control" >
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+

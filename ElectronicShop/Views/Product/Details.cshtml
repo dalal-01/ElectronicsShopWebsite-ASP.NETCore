@@ -1,0 +1,21 @@
+﻿@model Product
+
+<div class="card mb-3" style="max-width: 700px; max-height:600px;">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="~/images/@(Model.Image).jpg" class="img-fluid width=" 500px" height="400px" rounded-start" alt="product images">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">@Model.Name</h5>
+                <p class="card-text">@Model.CompanyName</p>
+                <p class="card-text">@Model.Description</p>
+                <p class="card-text">@Model.Price</p>
+            </div>
+            <button type="button" class="btn btn-secondary">
+                <a asp-action="AddOrder" asp-controller="Order" asp-route-id="@Model.ProductID">Order</a>
+            </button>
+        </div>
+
+ </div>
+
