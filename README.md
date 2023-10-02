@@ -27,24 +27,31 @@ products.
 9. The user will be able to view product details
 
 Home page
+
 ![image](https://github.com/dalal-01/ElectronicsShopWebsite-ASP.NETCore/assets/113533489/5b8e6587-6f89-4db6-9375-879d0118cb43)
 
 Products page
+
 ![image](https://github.com/dalal-01/ElectronicsShopWebsite-ASP.NETCore/assets/113533489/782982d7-7e80-40f5-831b-75cbb15742e6)
 
 Register page
+
 ![image](https://github.com/dalal-01/ElectronicsShopWebsite-ASP.NETCore/assets/113533489/fc420914-6603-4b54-a2ab-5c5bf6a0d3c9)
 
 Login page
+
 ![image](https://github.com/dalal-01/ElectronicsShopWebsite-ASP.NETCore/assets/113533489/3e426dd7-69b8-4d43-8cc0-0f1c5487dcec)
 
 Profile page
+
 ![image](https://github.com/dalal-01/ElectronicsShopWebsite-ASP.NETCore/assets/113533489/6942c6e9-a580-40c2-add9-a96285daa3f6)
 
 Orders page
+
 ![image](https://github.com/dalal-01/ElectronicsShopWebsite-ASP.NETCore/assets/113533489/b471c623-695c-4490-8d26-388de6c2ea77)
 
 Products page for admin user
+
 ![image](https://github.com/dalal-01/ElectronicsShopWebsite-ASP.NETCore/assets/113533489/2ec51665-91bb-4228-a935-72c6766f9146)
 
 Search by name of product
