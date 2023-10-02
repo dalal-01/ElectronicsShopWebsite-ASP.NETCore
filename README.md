@@ -55,6 +55,7 @@ Products page for admin user
 ![image](https://github.com/dalal-01/ElectronicsShopWebsite-ASP.NETCore/assets/113533489/2ec51665-91bb-4228-a935-72c6766f9146)
 
 Search by name of product
+
 ![image](https://github.com/dalal-01/ElectronicsShopWebsite-ASP.NETCore/assets/113533489/b0436c84-0daf-48c8-8389-29b7777f2cde)
 
 
